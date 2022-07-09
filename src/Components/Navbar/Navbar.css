@@ -18,7 +18,10 @@ ul {
   border-bottom: 3px solid rgba(255, 255, 255, 0.35);
   transition: color 500ms ease-in-out;
 }
-.nav-link.active {
+.main.main-active,
+.destination.destination-active,
+.crew.crew-active,
+.technology.technology-active {
   border-bottom: 3px solid var(--white);
 }
 .nav-link p {
@@ -31,7 +34,6 @@ ul {
 .nav-links {
   background-color: rgba(255, 255, 255, 0.1);
   width: 60%;
-  backdrop-filter: blur(81.55px);
   padding: 0px 2%;
 }
 .line {

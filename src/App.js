@@ -3,11 +3,16 @@ import { useState } from "react";
 import { data } from "./data";
 import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Components/Home/Home";
+import Destinations from "./Components/Destinations/Destinations";
+import Crew from "./Components/Crew/Crew";
+import Technology from "./Components/Technology/Technology";
 
 function App() {
   const [backgroundImage, setBackgroundImage] = useState(
     data.home["background-desktop"]
   );
+  const [pageIndex, setPageIndex] = useState(0);
+  const array = [<Home />, <Destinations />, <Crew />, <Technology />];
 
   return (
     <div className="App">
@@ -16,10 +21,8 @@ function App() {
         alt="Background image"
         className="background-image"
       />
-      <Navbar />
-      <main>
-        <Home />
-      </main>
+      <Navbar setPageIndex={setPageIndex} />
+      <main>{array[pageIndex]}</main>
     </div>
   );
 }
