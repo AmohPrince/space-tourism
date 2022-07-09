@@ -1,0 +1,38 @@
+.home {
+  padding-top: 13%;
+  padding-bottom: 3%;
+}
+.body-right {
+  width: 50%;
+}
+.text-a {
+  font-size: calc(1rem + 12px);
+  color: rgba(208, 214, 249, 1);
+}
+.space {
+  font-size: 9.375rem;
+  margin: 10px 0;
+}
+.text-b {
+  color: rgba(208, 214, 249, 1);
+  font-size: calc(1rem + 2px);
+  line-height: 2rem;
+  width: 80%;
+}
+.explore {
+  color: #0b0d17;
+  z-index: 5;
+  font-size: 2rem;
+  height: 200px;
+  width: 200px;
+  line-height: 200px;
+  text-align: center;
+  background-color: var(--white);
+  outline: 20px solid transparent;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.explore:hover {
+  outline: 40px solid #24262f;
+  transition: outline 500ms ease-in-out;
+}

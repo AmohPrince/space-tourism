@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital@1&family=Bellefair&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap");
 *,
 *::before,
 *::after {
@@ -7,6 +6,7 @@
   margin: 0;
   padding: 0;
   font-family: "Barlow Condensed", sans-serif;
+  color: var(--white);
 }
 :root {
   --primary: #0b0d17;
@@ -24,4 +24,23 @@ h4 {
 p,
 h5 {
   font-family: "Barlow Condensed", sans-serif;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+.space-around {
+  justify-content: space-around;
+}
+.capitalize {
+  text-transform: uppercase;
+}
+.padding-main {
+  padding: 0 8%;
+}
+.bellefair {
+  font-family: "Bellefair", serif;
 }
