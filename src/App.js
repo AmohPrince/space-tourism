@@ -12,7 +12,12 @@ function App() {
     data.home["background-desktop"]
   );
   const [pageIndex, setPageIndex] = useState(0);
-  const array = [<Home />, <Destinations />, <Crew />, <Technology />];
+  const array = [
+    <Home setBackgroundImage={setBackgroundImage} />,
+    <Destinations setBackgroundImage={setBackgroundImage} />,
+    <Crew />,
+    <Technology />,
+  ];
 
   return (
     <div className="App">

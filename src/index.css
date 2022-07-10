@@ -44,3 +44,6 @@ h5 {
 .bellefair {
   font-family: "Bellefair", serif;
 }
+.bluish {
+  color: var(--secondary);
+}

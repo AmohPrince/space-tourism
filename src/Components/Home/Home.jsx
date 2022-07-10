@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Home.css";
+import { data } from "../../data";
 
-const Home = () => {
+const Home = ({ setBackgroundImage }) => {
+  useEffect(() => {
+    setBackgroundImage(data.home["background-desktop"]);
+  }, []);
   return (
     <div className="flex space-between home padding-main">
       <div className="body-right">

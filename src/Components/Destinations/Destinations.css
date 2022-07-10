@@ -1,0 +1,71 @@
+.destinations-container {
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.destination-title {
+  font-size: calc(2rem - 4px);
+  letter-spacing: 4.7px;
+}
+.destination-title span {
+  color: var(--white);
+  opacity: 25%;
+  margin-right: 10px;
+}
+.destinations-body {
+  padding: 5%;
+  padding-left: 10%;
+  padding-right: 0%;
+}
+.destination-image {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+.destinations-content {
+  width: 60%;
+  padding-left: 7%;
+}
+.places {
+  width: 60%;
+}
+.place {
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 5px;
+}
+.place:hover {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+.destination-name {
+  font-size: 6.25rem;
+  padding: 0.7rem;
+}
+.destination-description {
+  line-height: 2rem;
+  font-size: calc(1rem + 2px);
+  width: 80%;
+}
+.divider {
+  width: 80%;
+  border-bottom: 1px solid var(--white);
+  opacity: 25%;
+  margin: 25px 0;
+}
+.destination-distance,
+.destination-travel-time {
+  font-size: calc(1rem - 2px);
+  letter-spacing: 2.36px;
+}
+.destination-information {
+  width: 80%;
+}
+.destination-information h4 {
+  font-size: calc(2rem - 4px);
+  margin-top: 7px;
+}
+.titan.titan-active,
+.europa.europa-active,
+.mars.mars-active,
+.moon.moon-active {
+  border-color: var(--white);
+}
