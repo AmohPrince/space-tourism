@@ -1,0 +1,53 @@
+.crew-container {
+  padding-top: 4%;
+}
+.crew-body {
+  width: 50%;
+  padding-top: 10%;
+}
+.switch {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.17);
+  cursor: pointer;
+  transition: background-color 200ms ease-in-out;
+}
+.switch:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.crew-image {
+  position: absolute;
+  bottom: 0;
+  right: 15%;
+  height: 80%;
+  object-fit: cover;
+}
+.crew-role {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 2rem;
+  font-weight: 400;
+}
+.crew-name {
+  font-size: 3.5rem;
+  font-weight: 400;
+  margin: 15px 0;
+  width: 110%;
+}
+.crew-bio {
+  width: 80%;
+  font-size: calc(1rem + 2px);
+  line-height: 1.5rem;
+}
+.switches {
+  width: 10%;
+  margin-top: 15%;
+  position: absolute;
+  bottom: 10%;
+}
+.switch-four.Anousheh,
+.switch-three.Victor,
+.switch-two.Mark,
+.switch-one.Douglas {
+  background-color: var(--white);
+}

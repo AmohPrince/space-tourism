@@ -15,8 +15,8 @@ function App() {
   const array = [
     <Home setBackgroundImage={setBackgroundImage} />,
     <Destinations setBackgroundImage={setBackgroundImage} />,
-    <Crew />,
-    <Technology />,
+    <Crew setBackgroundImage={setBackgroundImage} />,
+    <Technology setBackgroundImage={setBackgroundImage} />,
   ];
 
   return (

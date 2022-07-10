@@ -12,6 +12,7 @@
 .space {
   font-size: 9.375rem;
   margin: 10px 0;
+  font-weight: 400;
 }
 .text-b {
   color: rgba(208, 214, 249, 1);

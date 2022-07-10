@@ -12,7 +12,7 @@ const Destinations = ({ setBackgroundImage }) => {
 
   return (
     <div className="padding-main destinations-container">
-      <p className="destination-title capitalize">
+      <p className="tab-title capitalize">
         <span>01</span> Pick your destination
       </p>
       <div className="destinations-body flex space-between">
@@ -60,7 +60,7 @@ const Destinations = ({ setBackgroundImage }) => {
               Titan
             </p>
           </div>
-          <h1 className="destination-name">{destination.name}</h1>
+          <h1 className="destination-name capitalize">{destination.name}</h1>
           <p className="destination-description bluish">
             {destination.description}
           </p>

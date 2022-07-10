@@ -2,15 +2,7 @@
   padding-top: 4%;
   padding-bottom: 4%;
 }
-.destination-title {
-  font-size: calc(2rem - 4px);
-  letter-spacing: 4.7px;
-}
-.destination-title span {
-  color: var(--white);
-  opacity: 25%;
-  margin-right: 10px;
-}
+
 .destinations-body {
   padding: 5%;
   padding-left: 10%;
@@ -39,6 +31,7 @@
 .destination-name {
   font-size: 6.25rem;
   padding: 0.7rem;
+  font-weight: 400;
 }
 .destination-description {
   line-height: 2rem;
