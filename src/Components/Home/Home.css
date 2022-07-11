@@ -37,3 +37,27 @@
   outline: 40px solid #24262f;
   transition: outline 500ms ease-in-out;
 }
+
+@media screen and (max-width: 1150px) {
+  .home {
+    flex-direction: column;
+    text-align: center;
+  }
+  .text-b {
+    width: unset;
+  }
+  .space {
+    text-align: center;
+  }
+  .body-left {
+    margin-top: 100px;
+  }
+  .body-right {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .body-right {
+    width: 100%;
+  }
+}

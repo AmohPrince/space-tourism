@@ -3,9 +3,26 @@ import "./Home.css";
 import { data } from "../../data";
 
 const Home = ({ setBackgroundImage }) => {
+  const handleResize = () => {
+    if (window.innerWidth > 1150) {
+      setBackgroundImage(data.home["background-desktop"]);
+    }
+    if (window.innerWidth <= 1150 && window.innerWidth > 650) {
+      setBackgroundImage(data.home["background-tablet"]);
+    }
+    if (window.innerWidth <= 650) {
+      setBackgroundImage(data.home["background-mobile"]);
+    }
+  };
+
+  // window.addEventListener("resize", handleResize);
+
   useEffect(() => {
     setBackgroundImage(data.home["background-desktop"]);
   }, []);
+  useEffect(() => {
+    handleResize();
+  }, [window.innerWidth]);
   return (
     <div className="flex space-between home padding-main">
       <div className="body-right">
