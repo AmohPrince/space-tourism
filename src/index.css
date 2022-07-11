@@ -12,6 +12,7 @@
   --primary: #0b0d17;
   --secondary: #d0d6f9;
   --white: #ffffff;
+  --numbers: 220px;
 }
 
 h1,
@@ -28,6 +29,10 @@ h5 {
 .flex {
   display: flex;
   align-items: center;
+}
+.flex-v {
+  display: flex;
+  flex-direction: column;
 }
 .space-between {
   justify-content: space-between;
@@ -55,4 +60,7 @@ h5 {
   color: var(--white);
   opacity: 25%;
   margin-right: 10px;
+}
+.cursor {
+  cursor: pointer;
 }
