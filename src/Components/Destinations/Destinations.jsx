@@ -70,13 +70,13 @@ const Destinations = ({ setBackgroundImage }) => {
               <p className="capitalize bluish destination-distance">
                 Avg. Distance
               </p>
-              <h4>{destination.distance}</h4>
+              <p className="capitalize bellefair">{destination.distance}</p>
             </div>
             <div>
               <p className="capitalize bluish destination-travel-time">
                 Est. Travel time
               </p>
-              <h4>{destination.travel}</h4>
+              <p className="capitalize bellefair">{destination.travel}</p>
             </div>
           </div>
         </div>

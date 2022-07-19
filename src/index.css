@@ -64,3 +64,10 @@ h5 {
 .cursor {
   cursor: pointer;
 }
+
+@media screen and (max-width: 650px) {
+  .tab-title {
+    width: fit-content;
+    margin: 0 auto;
+  }
+}

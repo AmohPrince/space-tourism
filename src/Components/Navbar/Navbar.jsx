@@ -5,7 +5,7 @@ import Hamburger from "../../assets/shared/icon-hamburger.svg";
 import Close from "../../assets/shared/icon-close.svg";
 
 const Navbar = ({ setPageIndex }) => {
-  const [activeTab, setActiveTab] = useState("main");
+  const [activeTab, setActiveTab] = useState("main-active");
   const [smallScreen, setSmallScreen] = useState(false);
   const [icon, setIcon] = useState(Hamburger);
 

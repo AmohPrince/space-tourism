@@ -52,13 +52,64 @@
 .destination-information {
   width: 80%;
 }
-.destination-information h4 {
+.destination-information p:last-child {
   font-size: calc(2rem - 4px);
   margin-top: 7px;
+  font-family: be;
 }
 .titan.titan-active,
 .europa.europa-active,
 .mars.mars-active,
 .moon.moon-active {
   border-color: var(--white);
+}
+
+@media screen and (max-width: 1150px) {
+  .destinations-body {
+    flex-direction: column;
+  }
+  .destinations-body {
+    padding: 2% 0 0 0;
+  }
+  .destinations-content {
+    padding-left: 0;
+    width: 90%;
+    text-align: center;
+  }
+  .places {
+    margin: 0 auto;
+  }
+  .divider,
+  .destination-description {
+    width: unset;
+  }
+  .destination-information {
+    margin: 0 auto;
+    width: unset;
+    min-width: 50%;
+  }
+  .destination-image {
+    margin: 20px 0;
+  }
+  .destination-information > div {
+    margin: 0 15px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .destination-information {
+    flex-direction: column;
+  }
+  .destination-information > div {
+    margin-bottom: 30px;
+  }
+  .destination-image {
+    width: 170px;
+    height: 170px;
+  }
+  .divider {
+    margin: 40px 0;
+  }
+  .destination-name {
+    font-size: 4rem;
+  }
 }

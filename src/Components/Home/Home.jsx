@@ -15,14 +15,12 @@ const Home = ({ setBackgroundImage }) => {
     }
   };
 
-  // window.addEventListener("resize", handleResize);
+  window.addEventListener("resize", handleResize);
 
   useEffect(() => {
     setBackgroundImage(data.home["background-desktop"]);
   }, []);
-  useEffect(() => {
-    handleResize();
-  }, [window.innerWidth]);
+
   return (
     <div className="flex space-between home padding-main">
       <div className="body-right">
