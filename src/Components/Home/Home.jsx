@@ -19,6 +19,7 @@ const Home = ({ setBackgroundImage }) => {
 
   useEffect(() => {
     setBackgroundImage(data.home["background-desktop"]);
+    handleResize();
   }, []);
 
   return (
